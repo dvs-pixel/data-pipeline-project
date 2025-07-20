@@ -1,20 +1,27 @@
 # Data Pipeline Project
 
-This is my first Python project that demonstrates a basic data pipeline using pandas.
+This project demonstrates a simple ETL (Extract, Transform, Load) data pipeline using Python and Pandas.
 
-## Features
-- Read CSV data
-- Clean missing values
-- Transform columns
-- Export processed data
+## 🚀 Features
 
-## Technologies
-- Python
+- Data reading from CSV
+- Data cleaning and transformation
+- Output to a new cleaned CSV
+
+## 📂 File Structure
+
+- `pipeline.py`: Main script for data processing
+- `cleaned_data.csv`: Output after cleaning
+- `README.md`: Project documentation
+
+## 🛠️ Tech Stack
+
+- Python 3.12
 - Pandas
+- Git & GitHub
 
-## How to Run
-1. Clone the repo
-2. Create virtual environment: `python -m venv venv`
-3. Activate venv: `venv\Scripts\activate` (Windows)
-4. Install dependencies: `pip install -r requirements.txt`
-5. Run the code: `python file1.py`
+## 📌 How to Run
+
+```bash
+pip install -r requirements.txt
+python pipeline.py
